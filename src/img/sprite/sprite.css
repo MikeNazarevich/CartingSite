@@ -1,0 +1,180 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-2blue_bollid {
+  background-image: url(../img/sprite.png);
+  background-position: -1368px -778px;
+  width: 72px;
+  height: 54px;
+}
+.icon-2blue_bollid_white {
+  background-image: url(../img/sprite.png);
+  background-position: -1276px -778px;
+  width: 72px;
+  height: 54px;
+}
+.icon-Arena_96px {
+  background-image: url(../img/sprite.png);
+  background-position: -1276px -662px;
+  width: 96px;
+  height: 96px;
+}
+.icon-Arena_96px_green {
+  background-image: url(../img/sprite.png);
+  background-position: -1044px -662px;
+  width: 96px;
+  height: 96px;
+}
+.icon-Calendar_96px {
+  background-image: url(../img/sprite.png);
+  background-position: -1260px -959px;
+  width: 30px;
+  height: 32px;
+}
+.icon-Camping_Tent_96px {
+  background-image: url(../img/sprite.png);
+  background-position: -1160px -546px;
+  width: 96px;
+  height: 96px;
+}
+.icon-Camping_Tent_96px_green {
+  background-image: url(../img/sprite.png);
+  background-position: -1276px -546px;
+  width: 96px;
+  height: 96px;
+}
+.icon-F1_Race_white {
+  background-image: url(../img/sprite.png);
+  background-position: -1044px -546px;
+  width: 96px;
+  height: 96px;
+}
+.icon-Finish_Flag_96px_white {
+  background-image: url(../img/sprite.png);
+  background-position: -1160px -662px;
+  width: 96px;
+  height: 96px;
+}
+.icon-Globe_Earth_96px {
+  background-image: url(../img/sprite.png);
+  background-position: -1310px -959px;
+  width: 30px;
+  height: 30px;
+}
+.icon-Google_Maps_blue {
+  background-image: url(../img/sprite.png);
+  background-position: -1191px -894px;
+  width: 36px;
+  height: 36px;
+}
+.icon-KARTING_CLUB {
+  background-image: url(../img/sprite.png);
+  background-position: -1392px -662px;
+  width: 66px;
+  height: 55px;
+}
+.icon-KARTING_CLUB2 {
+  background-image: url(../img/sprite.png);
+  background-position: -1392px -546px;
+  width: 66px;
+  height: 55px;
+}
+.icon-Message_96px {
+  background-image: url(../img/sprite.png);
+  background-position: -1392px -621px;
+  width: 30px;
+  height: 21px;
+}
+.icon-Parliament_96px {
+  background-image: url(../img/sprite.png);
+  background-position: -1160px -778px;
+  width: 96px;
+  height: 96px;
+}
+.icon-Parliament_96px_green {
+  background-image: url(../img/sprite.png);
+  background-position: -1044px -778px;
+  width: 96px;
+  height: 96px;
+}
+.icon-blue_bollid {
+  background-image: url(../img/sprite.png);
+  background-position: -1044px -894px;
+  width: 69px;
+  height: 45px;
+}
+.icon-blue_finish {
+  background-image: url(../img/sprite.png);
+  background-position: -1191px -959px;
+  width: 49px;
+  height: 53px;
+}
+.icon-blue_line {
+  background-image: url(../img/sprite.png);
+  background-position: -1044px -1089px;
+  width: 4px;
+  height: 35px;
+}
+.icon-bollid_inMiddle {
+  background-image: url(../img/sprite.png);
+  background-position: -1044px 0px;
+  width: 417px;
+  height: 526px;
+}
+.icon-motor {
+  background-image: url(../img/sprite.png);
+  background-position: -1044px -1035px;
+  width: 23px;
+  height: 34px;
+}
+.icon-speedo-1081563_960_720 {
+  background-image: url(../img/sprite.png);
+  background-position: -1044px -959px;
+  width: 56px;
+  height: 56px;
+}
+.icon-timer2 {
+  background-image: url(../img/sprite.png);
+  background-position: -1120px -959px;
+  width: 51px;
+  height: 56px;
+}
+.icon-Безымянный-1 {
+  background-image: url(../img/sprite.png);
+  background-position: 0px 0px;
+  width: 1024px;
+  height: 1150px;
+}
+.icon-Двигатель {
+  background-image: url(../img/sprite.png);
+  background-position: -1247px -894px;
+  width: 40px;
+  height: 28px;
+}
+.icon-Детали {
+  background-image: url(../img/sprite.png);
+  background-position: -1133px -894px;
+  width: 38px;
+  height: 38px;
+}
+.icon-Молния {
+  background-image: url(../img/sprite.png);
+  background-position: -1087px -1035px;
+  width: 20px;
+  height: 34px;
+}

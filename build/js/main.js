@@ -1,0 +1,1 @@
+$(".corp-img").on("click",function(i){var o=$(this).data("img"),s=$(".info").filter("[data-img="+o+"]");s.offset(),$(document).scrollTop(),$(this).toggleClass("active"),s.slideToggle(),s.siblings(".info").hide(),$(this).closest(".col-md-4").siblings(".col-md-4").find(".corp-img").removeClass("active"),$("html, body").animate({scrollTop:s.offset().top},2e3)});
