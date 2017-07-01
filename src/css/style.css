@@ -1,23 +1,144 @@
+.menu{
+  display:block;
+  margin-top: 15px;
+}
+ 
+.menu li{
+  display: inline-block;
+  position: relative;
+  z-index:100;
+}
+ 
+.menu li a {
+  font-weight:600;
+  text-decoration:none;
+  padding:11px;
+  display:block;
+  color:black;
+   
+  -webkit-transition: all 0.2s ease-in-out 0s;
+     -moz-transition: all 0.2s ease-in-out 0s;
+     -o-transition: all 0.2s ease-in-out 0s;
+     -ms-transition: all 0.2s ease-in-out 0s;
+     transition: all 0.2s ease-in-out 0s;
+}
+ 
+.menu li a:hover, .menu li:hover > a{
+  color:white;
+  background:#0b5ec5;
+}
+
+.menu ul {
+  display: none;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  position: absolute;
+  top: 43px;
+  left: 0px;
+}
+ 
+.menu li:hover > ul{ display: block;}
+ 
+.menu ul li {
+  display:block;
+  float: none;
+  background:none;
+  margin:0;
+  padding:0;
+}
+ 
+.menu ul li a {
+  font-size:12px;
+  font-weight:normal;
+  display:block;
+  color: black;
+  border-left:3px solid #ffffff;
+  background:#ffffff;
+}
+ 
+.menu ul li a:hover, .menu ul li:hover > a{
+  background:#f0f0f0;
+  border-left:3px solid #9CA3DA;
+  color:#797979;
+}
+
+.menu ul ul {
+  left: 149px;
+  top: 0px;
+}
+
+.mobile-menu{
+  display:none;
+  text-align: center;
+  width:100%;
+  padding:11px;
+  background:#0b5ec5;
+  color: black;
+  text-transform:uppercase;
+  font-weight:600;
+}
+.mobile-menu:hover{
+  background:#0b5ec5;
+  color:black;
+  text-decoration:none;
+}
+
+
+
+@media (max-width: 767px) {
+ .menu{display:none;}
+.mobile-menu{display:block;}
+ 
+nav{margin:0; background:none;}
+ 
+.menu li{display:block; margin:0;}
+ 
+.menu li a {background:#ffffff;
+color:#797979;
+border-top:1px solid #e0e0e0;
+border-left:3px solid #ffffff;}
+ 
+.menu li a:hover, .menu li:hover > a{
+background:#f0f0f0;
+color:#797979;
+border-left:3px solid #9CA3DA;}
+ 
+.menu ul {display:block;
+position:relative;
+top:0;
+left:0;
+width:100%;}
+ 
+.menu ul ul {left:0;}
+}
+
+
+@media screen and (max-width: 767px){
+  .main_menu{display: block;}
+}
+
+
+
 .icon {
   display: inline-block;
 }
 
-
 .icon-2blue_bollid {
   background-image: url(../img/sprite.png);
-  background-position: -1368px -778px;
+  background-position: -1252px -778px;
   width: 72px;
   height: 54px;
 }
 .icon-2blue_bollid_white {
   background-image: url(../img/sprite.png);
-  background-position: -1276px -778px;
+  background-position: -1160px -778px;
   width: 72px;
   height: 54px;
 }
 .icon-Arena_96px {
   background-image: url(../img/sprite.png);
-  background-position: -1276px -662px;
+  background-position: -1044px -546px;
   width: 96px;
   height: 96px;
 }
@@ -29,7 +150,7 @@
 }
 .icon-Calendar_96px {
   background-image: url(../img/sprite.png);
-  background-position: -1260px -959px;
+  background-position: -1329px -959px;
   width: 30px;
   height: 32px;
 }
@@ -46,10 +167,16 @@
   height: 96px;
 }
 
+.icon-F1_Race_white {
+  background-image: url(../img/sprite.png);
+  background-position: -1160px -662px;
+  width: 96px;
+  height: 96px;
+}
 
 .icon-Globe_Earth_96px {
   background-image: url(../img/sprite.png);
-  background-position: -1310px -959px;
+  background-position: -1379px -959px;
   width: 30px;
   height: 30px;
 }
@@ -61,13 +188,13 @@
 }
 .icon-KARTING_CLUB {
   background-image: url(../img/sprite.png);
-  background-position: -1392px -662px;
+  background-position: -1392px -546px;
   width: 66px;
   height: 55px;
 }
 .icon-KARTING_CLUB2 {
   background-image: url(../img/sprite.png);
-  background-position: -1392px -546px;
+  background-position: -1392px -662px;
   width: 66px;
   height: 55px;
 }
@@ -79,13 +206,13 @@
 }
 .icon-Parliament_96px {
   background-image: url(../img/sprite.png);
-  background-position: -1160px -778px;
+  background-position: -1044px -778px;
   width: 96px;
   height: 96px;
 }
 .icon-Parliament_96px_green {
   background-image: url(../img/sprite.png);
-  background-position: -1044px -778px;
+  background-position: -1276px -662px;
   width: 96px;
   height: 96px;
 }
@@ -95,29 +222,29 @@
   width: 69px;
   height: 45px;
 }
-.icon-F1_Race_white {
+.icon-F1_Race_CarWhite {
   background-image: url(../img/sprite.png);
-  background-position: -1044px -546px;
-  width: 96px;
-  height: 96px;
+  background-position: -1344px -778px;
+  width: 69px;
+  height: 46px;
 }
 .icon-blue_finish {
   background-image: url(../img/sprite.png);
-  background-position: -1191px -959px;
+  background-position: -1260px -959px;
   width: 49px;
   height: 53px;
-}
-.icon-Finish_Flag_96px_white {
-  background-image: url(../img/sprite.png);
-  background-position: -1160px -662px;
-  width: 96px;
-  height: 96px;
 }
 .icon-blue_line {
   background-image: url(../img/sprite.png);
   background-position: -1044px -1089px;
   width: 4px;
   height: 35px;
+}
+.icon-Finish_Flag_96px_white {
+  background-image: url(../img/sprite.png);
+  background-position: -1191px -959px;
+  width: 49px;
+  height: 53px;
 }
 .icon-bollid_inMiddle {
   background-image: url(../img/sprite.png);
@@ -127,7 +254,7 @@
 }
 .icon-motor {
   background-image: url(../img/sprite.png);
-  background-position: -1044px -1035px;
+  background-position: -1433px -778px;
   width: 23px;
   height: 34px;
 }
@@ -163,10 +290,11 @@
 }
 .icon-Молния {
   background-image: url(../img/sprite.png);
-  background-position: -1087px -1035px;
+  background-position: -1044px -1035px;
   width: 20px;
   height: 34px;
 }
+
 
 
 header{
@@ -177,10 +305,13 @@ header{
 
 .all_header{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 10px 0;
+  width: 80%;
+  margin: auto;
 }
 
 .start{
@@ -194,126 +325,27 @@ header{
   flex-direction: column;
 }
 
+.main_menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
 
 a{
   text-decoration: none;
   color: black;
 }
 
-.logo{
-  height: 100%;
-  margin: 5px 0;
-}
-
-.main_menu{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
-}
-
-
-ul{
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-}
-
-ul.dropdown{ 
-  position: relative; 
-  width: 100%; 
-}
-
-ul.dropdown li{ 
-  font-weight: bold; 
-  float: left; 
-  width: 160px; 
-  position: relative;
-}
-
-ul.dropdown a:hover{ 
-  color: #0b5ec5; 
-}
-
-ul.dropdown li a { 
-  display: block; 
-  padding: 20px 8px;
-  color: #34495e; 
-  position: relative; 
-  text-align: center;
-  text-decoration: none;
-}
-
-ul.dropdown li a:hover,
-ul.dropdown li a.hover{ 
-  background: #3498db;
-  position: relative;
-  color: #fff;
-}
-
-
-ul.dropdown ul{ 
- display: none;
- position: absolute; 
-  top: 0; 
-  left: 0; 
-  width: 180px; 
-  z-index: 1000;
-}
-
-ul.dropdown ul li { 
-  font-weight: normal; 
-  background: #f6f6f6; 
-  color: #000; 
-  border-bottom: 1px solid #ccc; 
-}
-
-ul.dropdown ul li a{ 
-  display: block; 
-  color: #34495e !important;
-  background: #eee !important;
-} 
-
-ul.dropdown ul li a:hover{
-  display: block; 
-  background: #3498db !important;
-  color: #fff !important;
-} 
-
-.drop > a{
-  position: relative;
-}
-
-.drop > a:after{
-  content:"";
-  position: absolute;
-  right: 10px;
-  top: 40%;
-  border-left: 5px solid transparent;
-  border-top: 5px solid #333;
-  border-right: 5px solid transparent;
-  z-index: 999;
-}
-
-.drop > a:hover:after{
-  content:"";
-   border-left: 5px solid transparent;
-  border-top: 5px solid #fff;
-  border-right: 5px solid transparent;
-}
-
-
-
-
 .cart{
   display: flex;
   justify-content: center;
   background-image: url("../img/gran-turismo-5-karting-1.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  height: 900px;
+  background-size: cover;
   width: 100%;
-
+  height: 700px;
 }
 
 .textOnCar{
@@ -326,11 +358,15 @@ ul.dropdown ul li a:hover{
   width: 50%;
 }
 
+.bgc3{
+  background-color: #f6f6f6;
+}
+
 .blocksArrival{
   display: flex;
   justify-content: center;
   padding-bottom: 100px;
-  background-color: #f6f6f6;
+  flex-wrap: wrap;
 }
 
 .blocksArrival_content{
@@ -348,6 +384,11 @@ ul.dropdown ul li a:hover{
 
 .blocksArrival_content:hover{
   background-color: #0b5ec5;
+  color: white;
+}
+
+.blocksArrival_content:hover button{
+  color: black;
 }
 
 h2{
@@ -383,6 +424,10 @@ h2{
   font-weight: bold;
 }
 
+.our_cars{
+  margin-bottom: 100px;
+}
+
 .our_cars .content{
   display: flex;
   flex-direction: column;
@@ -392,6 +437,7 @@ h2{
 .table_bolid{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin-top: 100px;
 }
 
@@ -402,24 +448,83 @@ h2{
 
 TABLE{
   border-width: 2px;
+  border-style: solid;
+  margin: 30px 0;
+}
+
+td{
+  border: 2px solid #f6f6f6;
+}
+
+tr{
+  border: 2px solid;
 }
 
 .cell_1{
-
+  padding: 20px;
 }
 
-.cell_1{
 
-}
+
 
 .cell_2{
+  background-color: #f6f6f6;
+  padding: 15px;
+  width: 25%;
+}
 
+.cell_2 p{
+  margin: auto;
+}
+
+.table1{
+  font-size: 42px;
+}
+
+.table3{
+  font-size: 30px;
+}
+
+.table2{
+  font-size: 25px;
+}
+
+.table4{
+  font-size: 18px
+}
+
+.owl-nav{
+  display: flex;
+  justify-content: center;
+}
+
+.owl-prev, .owl-next{
+  color: white;
+  background-color: #00b783;
+  margin-top: 60px;
+  padding: 13px 28px;
+  border-radius: 22px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgcart img{
+  max-width: 100%;
+  height: auto;
 }
 
 
 .enrollment{
-  display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -445,6 +550,7 @@ TABLE{
   display: flex;
   flex-direction: row;
   align-items:center;
+  justify-content: center;
   margin-bottom: 150px;
 }
 
@@ -459,10 +565,16 @@ TABLE{
   align-items: center;
   font-size: 24px;
   font-weight: bold;
+  max-width: 100%;
+  height: auto;
 }
 
 .main_offers:hover{
   border-color: #00b783;
+}
+
+.blArr1, .blArr2, .blArr3{
+  margin-right: 20px;
 }
 
 .main_offers > p{
@@ -471,7 +583,6 @@ TABLE{
 }
 
 .other_offers{
-  padding
   flex-direction: column;
   align-items: center;
   margin-bottom: 40px;
@@ -492,29 +603,35 @@ TABLE{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  width: 80%;
 }
 
 .about_competition{
   background-color: #292929;
   color: white;
+  display: flex;
 }
 
 .stories{
-  width: 80%;
   display: flex;
+  width: 80%;
+  justify-content: center;
   margin: 0 auto;
   padding: 10px 0;
 }
 
 .block1{
   display: flex;
-
 }
-
 
 .block1_info1{
   display: flex;
   margin-right: 10px;
+  background-color: white;
+}
+.block2_info1{
+  display: flex;
+  margin-right: 0px;
   background-color: white;
 }
 
@@ -528,4 +645,99 @@ TABLE{
 
 .text{
   width: 80%;
+}
+
+.text p:first-child{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+footer{
+  height: 150px;
+}
+
+@media screen and (max-width: 2560px) {
+  .cart{height: 1000px;}
+}
+
+@media screen and (max-width: 1800px){
+  .cart{height: 700px;}
+}
+
+@media screen and (max-width: 1500px){
+  .textOnCar{font-size: 25px; }
+} 
+
+@media screen and (max-width: 1400px){
+  .stories{width:100%}
+}
+
+@media screen and (max-width: 1300px){
+  .cart{height: 500px;}
+  .blocksArrival_content{width: 20%;}
+}
+
+@media screen and (max-width: 1100px){
+  .stories{flex-wrap: wrap;}
+  .block1_info1{margin-right: 0;}
+}
+
+@media screen and (max-width: 1026px){
+  ul.dropdown li{font-size: 12px;font-weight: 500; font-weight: 500; width: 110px;}
+}
+
+@media screen and (max-width: 1000px){
+  .textOnCar{padding-top:50px;}
+  .blocksArrival_content{width: 25%;}
+  .blArr1{margin-right:0px;}
+  .blArr2{margin-right:0px;}
+  .blArr3{margin-right:0px;}
+  .info_ourTracks{flex-wrap: wrap;}
+}
+
+@media screen and (max-width: 800px){
+  .cart{height: 300px;}
+  .textOnCar{font-size: 20px;}
+
+  .blArr1{min-width: 50%;}
+  .blArr2{min-width: 50%;}
+  .blArr3{min-width: 50%; margin-top: 0px;}
+  .blArr4{min-width: 50%; margin-top: 0px;}
+}
+
+@media screen and (max-width: 767px){
+  .main_menu{display: block;}
+  .logo{text-align: center;}
+  footer{display: none;}
+}
+
+@media screen and (max-width: 610px){
+  .all_header{justify-content: center;}
+  .textOnCar{font-size: 15px; }
+  .main_offers{font-size: 19px}
+  .secondOurTracksBlock{justify-content: center;}
+  .main_offers{justify-content: center;}
+  .block1{flex-wrap: wrap;justify-content: center;}
+}
+
+@media screen and (max-width: 500px){
+  .cart{height: 150px;}
+}
+
+@media screen and (max-width: 450px){
+  .textOnCar{padding-top:10px; font-size: 12px}
+  .cell_1{font-size: 30px;}
+  .cell_2{font-size: 25px;}
+  .blocksArrival_content{margin-top: 0px;}
+  .table1{font-size: 20px;}
+  .table3{font-size: 15px;}
+  .table2{font-size: 18px;}
+  .table4{font-size: 15px;}
+  .google_info{flex-wrap: wrap;}
+} 
+
+@media screen and (max-width: 425px){
+  .blocksArrival_content{width: 100%;}
+  .cell_2{ padding: 0px; }
+  .owl-prev, .owl-next{font-size: 14px;}
 }

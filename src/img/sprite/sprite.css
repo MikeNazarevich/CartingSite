@@ -18,19 +18,19 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-2blue_bollid {
   background-image: url(../img/sprite.png);
-  background-position: -1368px -778px;
+  background-position: -1252px -778px;
   width: 72px;
   height: 54px;
 }
 .icon-2blue_bollid_white {
   background-image: url(../img/sprite.png);
-  background-position: -1276px -778px;
+  background-position: -1160px -778px;
   width: 72px;
   height: 54px;
 }
 .icon-Arena_96px {
   background-image: url(../img/sprite.png);
-  background-position: -1276px -662px;
+  background-position: -1044px -546px;
   width: 96px;
   height: 96px;
 }
@@ -42,7 +42,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-Calendar_96px {
   background-image: url(../img/sprite.png);
-  background-position: -1260px -959px;
+  background-position: -1329px -959px;
   width: 30px;
   height: 32px;
 }
@@ -58,21 +58,27 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 96px;
   height: 96px;
 }
-.icon-F1_Race_white {
+.icon-F1_Race_CarWhite {
   background-image: url(../img/sprite.png);
-  background-position: -1044px -546px;
-  width: 96px;
-  height: 96px;
+  background-position: -1344px -778px;
+  width: 69px;
+  height: 46px;
 }
-.icon-Finish_Flag_96px_white {
+.icon-F1_Race_white {
   background-image: url(../img/sprite.png);
   background-position: -1160px -662px;
   width: 96px;
   height: 96px;
 }
+.icon-Finish_Flag_96px_white {
+  background-image: url(../img/sprite.png);
+  background-position: -1191px -959px;
+  width: 49px;
+  height: 53px;
+}
 .icon-Globe_Earth_96px {
   background-image: url(../img/sprite.png);
-  background-position: -1310px -959px;
+  background-position: -1379px -959px;
   width: 30px;
   height: 30px;
 }
@@ -84,13 +90,13 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-KARTING_CLUB {
   background-image: url(../img/sprite.png);
-  background-position: -1392px -662px;
+  background-position: -1392px -546px;
   width: 66px;
   height: 55px;
 }
 .icon-KARTING_CLUB2 {
   background-image: url(../img/sprite.png);
-  background-position: -1392px -546px;
+  background-position: -1392px -662px;
   width: 66px;
   height: 55px;
 }
@@ -102,13 +108,13 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-Parliament_96px {
   background-image: url(../img/sprite.png);
-  background-position: -1160px -778px;
+  background-position: -1044px -778px;
   width: 96px;
   height: 96px;
 }
 .icon-Parliament_96px_green {
   background-image: url(../img/sprite.png);
-  background-position: -1044px -778px;
+  background-position: -1276px -662px;
   width: 96px;
   height: 96px;
 }
@@ -120,7 +126,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-blue_finish {
   background-image: url(../img/sprite.png);
-  background-position: -1191px -959px;
+  background-position: -1260px -959px;
   width: 49px;
   height: 53px;
 }
@@ -138,7 +144,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-motor {
   background-image: url(../img/sprite.png);
-  background-position: -1044px -1035px;
+  background-position: -1433px -778px;
   width: 23px;
   height: 34px;
 }
@@ -174,7 +180,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-Молния {
   background-image: url(../img/sprite.png);
-  background-position: -1087px -1035px;
+  background-position: -1044px -1035px;
   width: 20px;
   height: 34px;
 }

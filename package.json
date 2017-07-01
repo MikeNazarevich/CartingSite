@@ -29,6 +29,7 @@
     "imagemin-pngquant": "^5.0.1"
   },
   "dependencies": {
+    "gulp-sass": "^3.1.0",
     "gulp-stylus": "^2.6.0"
   }
 }
